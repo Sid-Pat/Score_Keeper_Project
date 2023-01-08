@@ -1,0 +1,68 @@
+body{
+    margin:0;
+    background-color: yellow;
+}
+#p1,#p2{
+    padding:5px 25px;
+    
+}
+
+#p1:hover,#p2:hover{
+    cursor:pointer;
+}
+
+#p1{
+    background-color:aqua;
+    color:black;
+}
+
+#p2{
+    background-color:red;
+    color:white;
+}
+
+#rest{
+    border-radius: 10px;
+    padding:3px 70px;
+    /* align-items: center; */
+}
+
+#main{
+    text-align: center;
+    position:absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    width: 50%;
+    height:30%;
+    background-color: lightgreen;
+    border: 5px solid #000000;
+    padding: 20px 40px;
+}
+
+#head{
+    /* position:absolute; */
+    text-align: center;
+    font-size: 60px;
+}
+
+#winSc{
+    border-radius: 2px;
+    padding-left: 3px;
+    background-color: yell;
+}
+
+.winner{
+    color:darkgreen;
+}
+.loser{
+    color:red;
+    opacity: 0.8;
+}
+
+#lb{
+    font-weight: bolder;
+    font-size: larger;
+}
